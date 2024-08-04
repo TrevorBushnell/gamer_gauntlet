@@ -33,5 +33,3 @@ for i, col in enumerate(cols):
 
         if checkbox:
             st.markdown(f'<img src="data:image/gif;base64,{data_url}" alt="star!">', unsafe_allow_html=True)
-
-st.markdown(f"{len(st.session_state.challenges)}")
